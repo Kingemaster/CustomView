@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
             destinationMap.values.forEach { it.progress = 0f }
             destinationMap[destination.id]?.transitionToEnd()
         }
+        supportActionBar?.hide()
     }
 
     override fun onBackPressed() {
