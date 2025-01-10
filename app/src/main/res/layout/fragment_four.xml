@@ -6,9 +6,22 @@
     tools:context=".fragments.FourFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <com.example.customview.customview.MyBubbleView
+        android:id="@+id/myBubbleView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:max="50"
+        android:progress="2"
+        android:progressTint="@color/yellow"
+        android:thumbTint="@color/yellow"
+        android:progressBackgroundTint="@color/white" />
 
 </FrameLayout>
