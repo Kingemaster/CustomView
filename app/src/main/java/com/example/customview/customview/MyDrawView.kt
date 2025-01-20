@@ -30,10 +30,7 @@ class MyDrawView @JvmOverloads constructor(
     private var mRadius = 0f
     private var mWidth = 0f
     private var mHeight = 0f
-    private var mRandomX = 0f
-    private var mRandomY = 0f
     private var mCoroutineJob:Job? = null
-    private var mCoroutineJob1:Job? = null
 
     private val solidLinePaint = Paint().apply {
         style = Paint.Style.STROKE
